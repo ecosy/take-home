@@ -29,6 +29,8 @@ print(response.text)
 ```
 
 #### (3.3) 파이프라인
+#### Bigquery -> cloud function / tasks queue -> mongoDB -> Bigquery -> api (cloud function)
+
 1. bigquery-public-data:crypto_ethereum 에서 3가지 서비스에 해당되는 **token_address, value** 추출함
 * 관련 코드 : [extract_token_addr_bigquery.sql](https://github.com/ecosy/take-home/blob/master/task_01/bigquery_sql/extract_token_addr_bigquery.sql)
 
@@ -52,5 +54,5 @@ print(response.text)
 4. MongoDB에 저장된 데이터를 pandas DataFrame으로 변환, BigQuery에 업로딩함
 * 관련 코드 : [pipe_02_mongoDB_to_bigquery.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_02_mongoDB_to_bigquery.ipynb)
 
-5. BigQuery에 업로딩된 데이터에 대하여 api 코드 구혀 
+5. BigQuery에 업로딩된 데이터에 대하여 api 코드 구현
 * 관련 코드 : [cloud_function_eoa_asset.py](https://github.com/ecosy/take-home/blob/master/task_01/cloud_function/cloud_function_eoa_asset.py)
