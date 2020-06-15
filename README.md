@@ -45,7 +45,7 @@ print(response.text)
   * 총 108856개의 value에 대해서 index별로 아래의 6개 파일로 나누어서 처리했고,
 각 파일은 총 3개의 google tasks queue로 데이터를 나누어 보냄    
   - index[0 - 20000] -> [pipe_01_bigquery_to_mongoDB.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB.ipynb)
-  - index[20000 - 40000] -> [pipe_01_bigquery_to_mongoDB_2.ipynb](https://github.com/ecosy/take-  home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB_2.ipynb) 
+  - index[20000 - 40000] -> [pipe_01_bigquery_to_mongoDB_2.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB_2.ipynb) 
   - index[40000 - 60000] -> [pipe_01_bigquery_to_mongoDB_3.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB_3.ipynb)
   - index[60000 - 80000] -> [pipe_01_bigquery_to_mongoDB_4.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB_4.ipynb)
   - index[80000 - 100000] -> [pipe_01_bigquery_to_mongoDB_5.ipynb](https://github.com/ecosy/take-home/blob/master/task_01/pipeline_code/pipe_01_bigquery_to_mongoDB_5.ipynb)
