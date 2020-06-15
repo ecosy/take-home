@@ -56,3 +56,7 @@ print(response.text)
 
 5. BigQuery에 업로딩된 데이터에 대하여 api 코드 구현
 * 관련 코드 : [cloud_function_eoa_asset.py](https://github.com/ecosy/take-home/blob/master/task_01/cloud_function/cloud_function_eoa_asset.py)
+
+## 4. Reference
+* 진행하며 참고했던 링크입니다.
+* [reference.md](https://github.com/ecosy/take-home/blob/master/reference.md)
